@@ -1,0 +1,52 @@
+/* Book.css */
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-input {
+    width: 70%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.book-item {
+    width: 200px;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book-info h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.book-info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
